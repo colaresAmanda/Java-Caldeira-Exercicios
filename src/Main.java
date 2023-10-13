@@ -1,6 +1,7 @@
 import com.colaresamanda.aula01.exercicio01.PrincipalA01E01;
 import com.colaresamanda.aula01.exercicio02.PrincipalA01E02;
 import com.colaresamanda.aula01.exercicio03.PrincipalA01E03;
+import com.colaresamanda.aula01.exercicio04.PrincipalA01E04;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,8 +17,10 @@ public class Main {
         var A01E03 = new PrincipalA01E03();
         A01E03.run();
 
+        // Exercício 04: Crie um programa que leia o valor do salário mínimo e o valor do salário de um usuário, calcule a quantidade de salários mínimos que esse usuário ganha e imprima o resultado, assuma que o salário mínimo é R$1.320.
 
-
+        var A01E04 = new PrincipalA01E04();
+        A01E04.run();
 
     }
 }
