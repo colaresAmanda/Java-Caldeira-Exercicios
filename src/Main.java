@@ -3,6 +3,7 @@ import com.colaresamanda.aula01.exercicio02.PrincipalA01E02;
 import com.colaresamanda.aula01.exercicio03.PrincipalA01E03;
 import com.colaresamanda.aula01.exercicio04.PrincipalA01E04;
 import com.colaresamanda.aula01.exercicio05.PrincipalA01E05;
+import com.colaresamanda.aula01.exercicio06.PrincipalA01E06;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,5 +26,9 @@ public class Main {
         // Exercício 5: Crie um programa que armazene um horário (hora, minuto e segundo) em variáveis, depois, determine e exiba a quantidade de segundos que se passaram desde as 0h00min0s e a quantidade de segundos que faltam para a meia-noite.
         var A01E05 = new PrincipalA01E05();
         A01E05.run();
+
+        var A01E06 = new PrincipalA01E06();
+        A01E06.run();
+
     }
 }
