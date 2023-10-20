@@ -5,6 +5,7 @@ import com.colaresamanda.aula01.exercicio04.PrincipalA01E04;
 import com.colaresamanda.aula01.exercicio05.PrincipalA01E05;
 import com.colaresamanda.aula01.exercicio06.PrincipalA01E06;
 import com.colaresamanda.aula01.exercicio07.PrincipalA01E07;
+import com.colaresamanda.aula01.exercicio08.PrincipalA01E08;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,7 +35,14 @@ public class Main {
 
         // Exercício 7: Criar para uma empresa de consórcio. No teste inicial, você deve perguntar para o usuário a idade dele e o seu salário. A pessoa só pode comprar um automóvel se for de maior e ganhar mais de R$ 2.000,00.
         var A01E07 = new PrincipalA01E07();
-        A01E07.run();
+//        A01E07.run();
+
+        // Exercício 8: Criar um algoritmo para definir as filas prioritárias. Seu programa deve exibir um menu de opções, perguntando se a pessoa é Gestante, Idosa, PCD ou Nenhuma das alternativas. Se ela for PCD, Idosa ou Gestante, tem direito a fila prioritária. Se não, não tem direito.
+        var A01E08 = new PrincipalA01E08();
+        A01E08.run();
+
+
+
 
     }
 }
