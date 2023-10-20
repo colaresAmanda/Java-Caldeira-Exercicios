@@ -26,7 +26,7 @@ public class Main {
         // Exercício 5: Crie um programa que armazene um horário (hora, minuto e segundo) em variáveis, depois, determine e exiba a quantidade de segundos que se passaram desde as 0h00min0s e a quantidade de segundos que faltam para a meia-noite.
         var A01E05 = new PrincipalA01E05();
         A01E05.run();
-
+       // Exercício 6: Escreva um programa que leia a idade do usuário e imprima respostas diferentes dependendo do número colocado
         var A01E06 = new PrincipalA01E06();
         A01E06.run();
 
