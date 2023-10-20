@@ -13,7 +13,7 @@ public class PrincipalA01E06 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your age: ");
-        var userAge = scanner.nextInt();
+        int userAge = scanner.nextInt();
 
         if(userAge < 16){
             System.out.println("You are not allowed to vote");

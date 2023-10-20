@@ -4,6 +4,7 @@ import com.colaresamanda.aula01.exercicio03.PrincipalA01E03;
 import com.colaresamanda.aula01.exercicio04.PrincipalA01E04;
 import com.colaresamanda.aula01.exercicio05.PrincipalA01E05;
 import com.colaresamanda.aula01.exercicio06.PrincipalA01E06;
+import com.colaresamanda.aula01.exercicio07.PrincipalA01E07;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,10 +26,15 @@ public class Main {
 
         // Exercício 5: Crie um programa que armazene um horário (hora, minuto e segundo) em variáveis, depois, determine e exiba a quantidade de segundos que se passaram desde as 0h00min0s e a quantidade de segundos que faltam para a meia-noite.
         var A01E05 = new PrincipalA01E05();
-        A01E05.run();
+//        A01E05.run();
+
        // Exercício 6: Escreva um programa que leia a idade do usuário e imprima respostas diferentes dependendo do número colocado
         var A01E06 = new PrincipalA01E06();
-        A01E06.run();
+//        A01E06.run();
+
+        // Exercício 7: Criar para uma empresa de consórcio. No teste inicial, você deve perguntar para o usuário a idade dele e o seu salário. A pessoa só pode comprar um automóvel se for de maior e ganhar mais de R$ 2.000,00.
+        var A01E07 = new PrincipalA01E07();
+        A01E07.run();
 
     }
 }
